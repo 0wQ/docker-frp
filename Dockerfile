@@ -2,7 +2,7 @@ FROM alpine:3.10
 
 LABEL maintainer="Mizore <me@mizore.cn>"
 
-ENV FRP_VERSION=0.27.1
+ENV FRP_VERSION=0.31.1
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
 
